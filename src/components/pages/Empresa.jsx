@@ -1,6 +1,6 @@
 function Empresa(){
     return (
-        <div>Empresa aqui</div>
+        <h1>Empresa aqui</h1>
     )
 }
 export default Empresa

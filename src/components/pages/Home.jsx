@@ -1,6 +1,6 @@
 function Home(){
     return (
-        <div>Home aqui</div>
+        <h1>Home aqui</h1>
     )
 }
 export default Home
