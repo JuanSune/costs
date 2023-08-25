@@ -16,5 +16,11 @@
 }
 
 .item a{
-    
+    color: #FFF;
+    text-decoration: none;
+}
+
+.item a:hover{
+    color: #FFbb33;
+    text-decoration: none;
 }
