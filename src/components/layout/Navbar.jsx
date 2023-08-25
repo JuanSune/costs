@@ -1,15 +1,28 @@
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
+import Container from "./Container";
+import logo from "../../img/costs_logo.png";
 
-
-function Navbar(){
-    return (
-        <div>
-        <Link to="/">Home</Link>
-          <Link to="/NovoProjeto">Novo Projeto</Link>
-          <Link to="/Empresa">Empresa</Link>
-          <Link to="/Contato">Contato</Link>
-        </div>
-    )
+function Navbar() {
+  return (
+    <nav>
+      <Container>
+        <Link to="/">
+          <img src={logo} alt="Costs" />
+        </Link>
+        <ul>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/Empresa">Empresa</Link>
+          </li>
+          <li>
+            <Link to="/Contato">Contato</Link>
+          </li>
+        </ul>
+      </Container>
+    </nav>
+  );
 }
 
-export default Navbar
+export default Navbar;
