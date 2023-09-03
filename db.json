@@ -1,0 +1,62 @@
+{
+  "projetos": [
+    {
+      "": "r",
+      "categoria": {
+        "id": "4",
+        "name": "Extra"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 1
+    },
+    {
+      "": "7",
+      "categoria": {
+        "id": "1",
+        "name": "Infraestrutura"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 2
+    },
+    {
+      "": "1",
+      "categoria": {
+        "id": "3",
+        "name": "Design"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 3
+    },
+    {
+      "": "1",
+      "categoria": {
+        "id": "1",
+        "name": "Infraestrutura"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 4
+    }
+  ],
+  "categorias": [
+    {
+      "id": 1,
+      "name": "Infraestrutura"
+    },
+    {
+      "id": 2,
+      "name": "Desenvolvimento"
+    },
+    {
+      "id": 3,
+      "name": "Design"
+    },
+    {
+      "id": 4,
+      "name": "Extra"
+    }
+  ]
+}
